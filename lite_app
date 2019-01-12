@@ -32,6 +32,16 @@ sub reconcile {
 
 __DATA__
 @@ upload.html.ep
+<pre>
+Upload the attached at.csv to the Autotask file field and qb.tsv to the Quickbooks file field and then click Ok.  You'll get the results in a nice table form!  Let me know how you'd like this improved.  As usual, it's not pretty.  :)
+
+You already know how to generate your Quickbooks reports.  You'll need to export the sheet to a Tab-Separated .TSV file.  I'll be able to do the conversion eventually, but for now, please take this extra step.
+For the Autotask Report, go to (A) > Contracts > Live Reports > Invoice Reconciliation and then run the report.  It defaults to last month.  See the screenshot below.  You'll need to export the sheet to a Tab-Separated .TSV file.  I'll be able to do the conversion eventually, but for now, please take this extra step.
+
+Once you have both .tsv files, upload them using the web url above and press ok.  That should be all!
+
+I have only one test case, so for this to work, the QB report form and the AT report format must never change.  There is no error handling, which means that if there's an error, who knows what will go wrong.  Don't worry about it, just let me know.  I'm hoping that for the most part you can just run your reports and convert to .tsv and upload them to get the reconciliation whenever you want.  If you do it enough, let me know I'll increase the priority on handling the Excel to .TSV conversion automatically so that you need only run the reports and immediately upload them.
+</pre>
 %= form_for 'reconcile' => (enctype => 'multipart/form-data') => begin
   %= label_for at => 'Autotask Report'
   %= file_field 'at'
