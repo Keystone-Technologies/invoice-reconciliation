@@ -1,0 +1,52 @@
+#!/usr/bin/perl
+use Mojolicious::Lite;
+
+use Mojo::File 'path';
+use Mojo::ByteStream 'b';
+
+get '/' => 'upload';
+post '/reconcile' => sub {
+  my $c = shift;
+  my $at = b($c->req->upload('at')->asset->slurp)->split("\n");
+  my $qb = b($c->req->upload('qb')->asset->slurp)->split("\n");
+  my $recon = reconcile($at, $qb);
+  $c->render(recon => $recon);
+};
+app->start;
+
+sub reconcile {
+  my ($at, $qb) = @_;
+  my %recon;
+  $at->grep(qr/^\d+\t/)->each(sub {
+    my ($batchid, $invoiceid, $invoice, $amount) = (/^(\d+)\t(\d+)\t(\d+)\.00\t(\d+\.\d{2})\r?\n?$/);
+    $invoice ||= 0;
+    $amount ||= 0;
+    #warn "$batchid, $invoiceid, $invoice, $amount";
+    my $amount_qb = $qb->grep(qr/\tInvoice\t/)->map(sub{@_ = split /\t/, $_; $_[18] =~ s/,//g; $_[18] =~ s/\r?//; $_=[$_[8],$_[14]?0:$_[18]]})->grep(sub{$_->[0] eq $invoice})->first;
+    $recon{$invoice} ||= [0,0];
+    $recon{$invoice}->[0] += $amount;
+    $recon{$invoice}->[1] += $amount_qb->[1]||0;
+  });
+  return \%recon;
+}
+
+__DATA__
+@@ upload.html.ep
+%= form_for 'reconcile' => (enctype => 'multipart/form-data') => begin
+  %= label_for at => 'Autotask Report'
+  %= file_field 'at'
+  %= label_for at => 'Quickbooks Report'
+  %= file_field 'qb'
+  %= submit_button
+% end
+
+@@ reconcile.html.ep
+<table>
+<tr><td>Invoice Number</td><td>Autotask</td><td>Quickbooks</td><td>Difference</td></tr>
+% foreach my $invoice ( sort keys %$recon ) {
+%   my ($at, $qb) = @{$recon->{$invoice}};
+%   if ( $at ne $qb ) {
+      <tr><td><%= $invoice %></td><td><%= $at %></td><td><%= $qb %></td><td><%= $at - $qb %></td></tr>
+%   }
+% }
+</table>

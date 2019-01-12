@@ -1,0 +1,377 @@
+				Type		Date		Num		Memo		Account		Clr		Split		Amount
+	A
+				Invoice		11/01/2018		1949				106 · Accounts Receivable				-SPLIT-		575.00
+				Payment		11/07/2018				1949		110 · Deposit in Transit		Ö		106 · Accounts Receivable		575.00
+	A
+				Invoice		11/01/2018		1950				106 · Accounts Receivable				-SPLIT-		900.00
+				Payment		11/09/2018		15326		1950		110 · Deposit in Transit		Ö		106 · Accounts Receivable		900.00
+	A
+				Invoice		11/15/2018		2003				106 · Accounts Receivable				-SPLIT-		2,009.85
+				Invoice		11/21/2018		2087				106 · Accounts Receivable				-SPLIT-		223.95
+				Payment		11/21/2018				2087		110 · Deposit in Transit		Ö		106 · Accounts Receivable		223.95
+				Payment		11/26/2018				2003		110 · Deposit in Transit		Ö		106 · Accounts Receivable		2,009.85
+	A
+				Invoice		11/15/2018		2004				106 · Accounts Receivable				-SPLIT-		1,384.31
+				Invoice		11/15/2018		2005				106 · Accounts Receivable				-SPLIT-		888.15
+				Invoice		11/15/2018		2006				106 · Accounts Receivable				-SPLIT-		278.00
+				Invoice		11/15/2018		2007				106 · Accounts Receivable				-SPLIT-		2,048.60
+				Invoice		11/19/2018		2074				106 · Accounts Receivable				-SPLIT-		4,978.19
+				Payment		11/20/2018				1979		110 · Deposit in Transit		Ö		106 · Accounts Receivable		2,450.00
+				Payment		11/27/2018				2004,2005,2006,2007		110 · Deposit in Transit		Ö		106 · Accounts Receivable		4,599.06
+				Invoice		11/30/2018		2144		VOID:		106 · Accounts Receivable		Ö		-SPLIT-		0.00
+				Invoice		11/30/2018		2194				106 · Accounts Receivable				-SPLIT-		3,238.00
+	A
+				Payment		11/20/2018		289133		1734, 1764		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,925.00
+	A
+				Invoice		11/01/2018		1951				106 · Accounts Receivable				-SPLIT-		2,458.25
+				Invoice		11/01/2018		1952				106 · Accounts Receivable				-SPLIT-		3,158.33
+				Invoice		11/01/2018		1953				106 · Accounts Receivable				-SPLIT-		1,754.16
+				Invoice		11/01/2018		1955				106 · Accounts Receivable				-SPLIT-		1,016.67
+				Invoice		11/01/2018		1956				106 · Accounts Receivable				-SPLIT-		2,495.83
+				Invoice		11/01/2018		1958				106 · Accounts Receivable				-SPLIT-		2,700.00
+				Invoice		11/01/2018		1961				106 · Accounts Receivable				-SPLIT-		3,472.92
+				Invoice		11/01/2018		1962				106 · Accounts Receivable				-SPLIT-		2,187.92
+				Invoice		11/01/2018		1963				106 · Accounts Receivable				-SPLIT-		2,208.33
+				Payment		11/14/2018		RA57229		1788,1951,1952,1953,1955,1956,1958,1961,1962,1963		110 · Deposit in Transit		Ö		106 · Accounts Receivable		22,565.29
+				Invoice		11/19/2018		2073				106 · Accounts Receivable				-SPLIT-		4,340.00
+				Payment		11/28/2018		57655		2073		110 · Deposit in Transit		Ö		106 · Accounts Receivable		4,340.00
+	B
+				Payment		11/05/2018				1703		110 · Deposit in Transit		Ö		106 · Accounts Receivable		262.50
+				Invoice		11/09/2018		1986				106 · Accounts Receivable				-SPLIT-		26.14
+				Payment		11/09/2018		17525		1392		110 · Deposit in Transit		Ö		106 · Accounts Receivable		6,770.00
+				Invoice		11/15/2018		2008				106 · Accounts Receivable				-SPLIT-		7,094.50
+				Invoice		11/16/2018		1991				106 · Accounts Receivable				-SPLIT-		262.50
+				Payment		11/19/2018		17546		1611		110 · Deposit in Transit		Ö		106 · Accounts Receivable		6,789.92
+	B
+				Invoice		11/05/2018		1977				106 · Accounts Receivable				-SPLIT-		52,000.00
+				Payment		11/05/2018		ACH1747		1782		110 · Deposit in Transit		Ö		106 · Accounts Receivable		52,000.00
+				Payment		11/08/2018		ACH1750		1977		110 · Deposit in Transit		Ö		106 · Accounts Receivable		52,000.00
+				Invoice		11/14/2018		2002				106 · Accounts Receivable				-SPLIT-		1,352.40
+				Invoice		11/15/2018		2083				106 · Accounts Receivable				-SPLIT-		400.00
+				Payment		11/27/2018		ACH1761		2002		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,352.40
+				Invoice		11/30/2018		2095				106 · Accounts Receivable				-SPLIT-		62.50
+	B
+				Invoice		11/15/2018		2084				106 · Accounts Receivable				-SPLIT-		1,110.00
+				Payment		11/27/2018		ACH1761		2084		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,110.00
+	B
+				Payment		11/06/2018		ACH1748		1817,1792,1894,1907		110 · Deposit in Transit		Ö		106 · Accounts Receivable		10,236.96
+				Payment		11/06/2018		ACH1748		1700		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,600.00
+				Invoice		11/14/2018		1980				106 · Accounts Receivable				-SPLIT-		1,225.00
+				Invoice		11/15/2018		2091				106 · Accounts Receivable				-SPLIT-		2,012.23
+				Invoice		11/16/2018		1990				106 · Accounts Receivable				-SPLIT-		875.00
+				Invoice		11/30/2018		2092				106 · Accounts Receivable				-SPLIT-		3,325.00
+				Invoice		11/30/2018		2145				106 · Accounts Receivable				-SPLIT-		875.00
+	B
+				Invoice		11/15/2018		2011				106 · Accounts Receivable				-SPLIT-		200.00
+	B
+				Invoice		11/15/2018		2012				106 · Accounts Receivable				-SPLIT-		1,050.00
+				Invoice		11/30/2018		2094				106 · Accounts Receivable				-SPLIT-		1,025.00
+	B
+				Invoice		11/15/2018		2013				106 · Accounts Receivable				-SPLIT-		1,200.00
+				Payment		11/29/2018		ACH1764		2013		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,200.00
+	B
+				Invoice		11/15/2018		2014				106 · Accounts Receivable				-SPLIT-		500.00
+				Payment		11/27/2018		ACH1761		2014		110 · Deposit in Transit		Ö		106 · Accounts Receivable		500.00
+	B
+				Invoice		11/15/2018		2015				106 · Accounts Receivable				-SPLIT-		1,720.00
+	B
+				Invoice		11/15/2018		2089				106 · Accounts Receivable				-SPLIT-		1,367.83
+				Invoice		11/30/2018		2143				106 · Accounts Receivable				-SPLIT-		125.00
+	B
+				Invoice		11/15/2018		2017				106 · Accounts Receivable				-SPLIT-		500.00
+				Payment		11/20/2018		ACH1758		1825		110 · Deposit in Transit		Ö		106 · Accounts Receivable		500.00
+	C
+				Invoice		11/15/2018		2019				106 · Accounts Receivable				-SPLIT-		1,402.00
+				Payment		11/26/2018				2019		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,402.00
+	C
+				Invoice		11/15/2018		2020				106 · Accounts Receivable				-SPLIT-		1,527.75
+				Payment		11/26/2018				2020		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,527.75
+	C
+				Invoice		11/15/2018		2021				106 · Accounts Receivable				-SPLIT-		116.76
+				Payment		11/26/2018				2021		110 · Deposit in Transit		Ö		106 · Accounts Receivable		116.76
+	C
+				Invoice		11/14/2018		1981				106 · Accounts Receivable				-SPLIT-		262.50
+				Invoice		11/15/2018		2022				106 · Accounts Receivable				-SPLIT-		1,009.59
+				Payment		11/19/2018		6171		1908, 1981		110 · Deposit in Transit		Ö		106 · Accounts Receivable		575.00
+				Invoice		11/30/2018		2096				106 · Accounts Receivable				-SPLIT-		2,902.50
+				Invoice		11/30/2018		2146		VOID:		106 · Accounts Receivable		Ö		-SPLIT-		0.00
+	C
+				Payment		11/01/2018		15724		1923		110 · Deposit in Transit		Ö		106 · Accounts Receivable		4,691.60
+				Invoice		11/16/2018		1992				106 · Accounts Receivable				-SPLIT-		134.19
+				Payment		11/26/2018		15746		1992		110 · Deposit in Transit		Ö		106 · Accounts Receivable		134.19
+				Invoice		11/30/2018		2097				106 · Accounts Receivable				-SPLIT-		350.00
+				Invoice		11/30/2018		2147				106 · Accounts Receivable				-SPLIT-		1,225.00
+	C
+				Payment		11/02/2018		31059		1830		110 · Deposit in Transit		Ö		106 · Accounts Receivable		2,833.44
+				Invoice		11/15/2018		2023				106 · Accounts Receivable				-SPLIT-		6,899.68
+				Invoice		11/19/2018		2075				106 · Accounts Receivable				-SPLIT-		3,846.94
+				Payment		11/23/2018		31450		1830,1886		110 · Deposit in Transit		Ö		106 · Accounts Receivable		10,329.45
+	D
+				Invoice		11/01/2018		1925				106 · Accounts Receivable				-SPLIT-		1,875.53
+				Payment		11/02/2018		1514		1925		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,875.53
+	E
+				Invoice		11/30/2018		1993				106 · Accounts Receivable				-SPLIT-		175.00
+	E
+				Invoice		11/15/2018		2025				106 · Accounts Receivable				-SPLIT-		1,350.00
+				Payment		11/30/2018		6594		1832		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,350.00
+				Invoice		11/30/2018		2159		VOID:		106 · Accounts Receivable		Ö		-SPLIT-		0.00
+	E
+				Payment		11/13/2018		1425		1833		110 · Deposit in Transit		Ö		106 · Accounts Receivable		85.07
+				Invoice		11/15/2018		2026				106 · Accounts Receivable				-SPLIT-		119.80
+				Invoice		11/30/2018		2160				106 · Accounts Receivable				-SPLIT-		30.00
+	E
+				Invoice		11/14/2018		1982				106 · Accounts Receivable				-SPLIT-		350.00
+				Invoice		11/15/2018		2027				106 · Accounts Receivable				-SPLIT-		1,905.00
+				Payment		11/19/2018		43679		1910, 1930, 1941		110 · Deposit in Transit		Ö		106 · Accounts Receivable		2,512.50
+				Invoice		11/30/2018		2161				106 · Accounts Receivable				-SPLIT-		87.50
+	E
+				Payment		11/05/2018		97271		1706,1708,1721,1735,1736,1737,1768,1769,1770,1772		110 · Deposit in Transit		Ö		106 · Accounts Receivable		12,807.50
+				Invoice		11/09/2018		1978				106 · Accounts Receivable				-SPLIT-		49,391.01
+				Invoice		11/14/2018		1983				106 · Accounts Receivable				-SPLIT-		2,450.00
+				Invoice		11/14/2018		1984				106 · Accounts Receivable				-SPLIT-		787.50
+				Invoice		11/16/2018		1994				106 · Accounts Receivable				-SPLIT-		3,675.00
+				Invoice		11/16/2018		1995				106 · Accounts Receivable				-SPLIT-		1,312.50
+				Invoice		11/16/2018		1996				106 · Accounts Receivable				-SPLIT-		437.50
+				Invoice		11/16/2018		1997				106 · Accounts Receivable				-SPLIT-		2,100.00
+				Invoice		11/19/2018		2077				106 · Accounts Receivable				-SPLIT-		500.00
+				Payment		11/26/2018		100408		1758, 1901		110 · Deposit in Transit		Ö		106 · Accounts Receivable		47,676.35
+				Invoice		11/30/2018		2099				106 · Accounts Receivable				-SPLIT-		3,412.50
+				Invoice		11/30/2018		2100				106 · Accounts Receivable				-SPLIT-		612.50
+				Invoice		11/30/2018		2101				106 · Accounts Receivable				-SPLIT-		212.50
+				Invoice		11/30/2018		2102				106 · Accounts Receivable				-SPLIT-		3,675.00
+				Invoice		11/30/2018		2104				106 · Accounts Receivable				-SPLIT-		6,825.00
+				Invoice		11/30/2018		2149				106 · Accounts Receivable				-SPLIT-		1,487.50
+				Invoice		11/30/2018		2150				106 · Accounts Receivable				-SPLIT-		2,100.00
+				Invoice		11/30/2018		2151				106 · Accounts Receivable				-SPLIT-		612.50
+				Invoice		11/30/2018		2152				106 · Accounts Receivable				-SPLIT-		5,687.50
+				Invoice		11/30/2018		2153				106 · Accounts Receivable				-SPLIT-		4,375.00
+	F
+				Invoice		11/15/2018		2028				106 · Accounts Receivable				-SPLIT-		450.00
+	F
+				Invoice		11/29/2018		2133				106 · Accounts Receivable				-SPLIT-		1,959.00
+				Payment		11/29/2018				2133		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,959.00
+				Invoice		11/30/2018		2107				106 · Accounts Receivable				-SPLIT-		312.50
+	G
+				Payment		11/07/2018				1773, 1797, 1897		110 · Deposit in Transit		Ö		106 · Accounts Receivable		2,275.00
+				Invoice		11/15/2018		2029				106 · Accounts Receivable				-SPLIT-		2,745.91
+				Payment		11/15/2018				1973		110 · Deposit in Transit		Ö		106 · Accounts Receivable		32.20
+				Payment		11/26/2018				2029		110 · Deposit in Transit		Ö		106 · Accounts Receivable		2,745.91
+				Invoice		11/27/2018		2105		VOID:		106 · Accounts Receivable		Ö		-SPLIT-		0.00
+				Invoice		11/30/2018		2112				106 · Accounts Receivable				-SPLIT-		2,700.00
+				Invoice		11/30/2018		2162				106 · Accounts Receivable				-SPLIT-		87.50
+	G
+				Invoice		11/15/2018		2030				106 · Accounts Receivable				-SPLIT-		3,947.70
+				Payment		11/30/2018				2030		110 · Deposit in Transit		Ö		106 · Accounts Receivable		3,947.70
+	G
+				Invoice		11/15/2018		2031				106 · Accounts Receivable				-SPLIT-		2,579.13
+				Payment		11/30/2018		339135		2031		110 · Deposit in Transit		Ö		106 · Accounts Receivable		2,579.13
+	H
+				Invoice		11/15/2018		2032				106 · Accounts Receivable				-SPLIT-		106.60
+	H
+				Payment		11/07/2018		76568		1637		110 · Deposit in Transit		Ö		106 · Accounts Receivable		650.00
+				Payment		11/13/2018		76636		1839		110 · Deposit in Transit		Ö		106 · Accounts Receivable		650.00
+				Invoice		11/15/2018		2033				106 · Accounts Receivable				-SPLIT-		650.00
+	H
+				Payment		11/13/2018		10165		1840		110 · Deposit in Transit		Ö		106 · Accounts Receivable		50.00
+				Invoice		11/15/2018		2034				106 · Accounts Receivable				-SPLIT-		50.00
+	H
+				Invoice		11/02/2018		1976				106 · Accounts Receivable				-SPLIT-		880.00
+	I
+				Invoice		11/01/2018		1954				106 · Accounts Receivable				-SPLIT-		1,058.33
+				Credit Memo		11/08/2018		1985				106 · Accounts Receivable				-SPLIT-		-62.50
+				Payment		11/12/2018				1954		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,058.33
+				Payment		11/12/2018				1723		110 · Deposit in Transit		Ö		106 · Accounts Receivable		187.50
+	J
+				Invoice		11/15/2018		2024				106 · Accounts Receivable				-SPLIT-		19,400.00
+				Payment		11/16/2018		712		1831, 1798		110 · Deposit in Transit		Ö		106 · Accounts Receivable		17,586.50
+				Invoice		11/30/2018		2167				106 · Accounts Receivable				-SPLIT-		175.00
+	J
+				Credit Memo		11/15/2018		2110				106 · Accounts Receivable				-SPLIT-		-37.61
+	J
+				Payment		11/06/2018		6078		1640		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,492.60
+				Invoice		11/15/2018		2035				106 · Accounts Receivable				-SPLIT-		1,816.60
+				Payment		11/23/2018		6102		1842		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,492.60
+	L
+				Invoice		11/15/2018		2036				106 · Accounts Receivable				-SPLIT-		4.17
+				Payment		11/26/2018		2313		2036		110 · Deposit in Transit		Ö		106 · Accounts Receivable		4.17
+	L
+				Invoice		11/15/2018		2037				106 · Accounts Receivable				-SPLIT-		5,818.10
+				Payment		11/28/2018				2037		110 · Deposit in Transit		Ö		106 · Accounts Receivable		5,818.10
+	L
+				Invoice		11/15/2018		2038				106 · Accounts Receivable				-SPLIT-		37.00
+				Payment		11/26/2018						110 · Deposit in Transit				106 · Accounts Receivable		37.00
+	M
+				Invoice		11/15/2018		2039				106 · Accounts Receivable				-SPLIT-		1,274.00
+				Invoice		11/20/2018		2079				106 · Accounts Receivable				-SPLIT-		11,721.23
+				Payment		11/28/2018		7804		2079		110 · Deposit in Transit		Ö		106 · Accounts Receivable		11,721.23
+				Payment		11/28/2018		7805		2039		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,274.00
+	M
+				Invoice		11/15/2018		2040				106 · Accounts Receivable				-SPLIT-		1,290.00
+				Payment		11/26/2018				2040		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,290.00
+	M
+				Invoice		11/15/2018		2041				106 · Accounts Receivable				-SPLIT-		700.00
+				Payment		11/21/2018		ACH1759		2041		110 · Deposit in Transit		Ö		106 · Accounts Receivable		700.00
+	M
+				Invoice		11/15/2018		2042				106 · Accounts Receivable				-SPLIT-		1,496.00
+				Payment		11/23/2018		10483		2042		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,496.00
+	M
+				Payment		11/05/2018		5054		1850		110 · Deposit in Transit		Ö		106 · Accounts Receivable		4,720.65
+				Invoice		11/15/2018		2043				106 · Accounts Receivable				-SPLIT-		4,759.85
+				Invoice		11/29/2018		2134				106 · Accounts Receivable				-SPLIT-		34.97
+				Payment		11/30/2018		5165		2043		110 · Deposit in Transit		Ö		106 · Accounts Receivable		4,759.85
+				Invoice		11/30/2018		2154		VOID:		106 · Accounts Receivable		Ö		-SPLIT-		0.00
+				Invoice		11/30/2018		2191				106 · Accounts Receivable				-SPLIT-		1,012.50
+	M
+				Invoice		11/15/2018		2085				106 · Accounts Receivable				-SPLIT-		2,209.30
+				Payment		11/29/2018		ACH1764		2085		110 · Deposit in Transit		Ö		106 · Accounts Receivable		2,209.30
+	M
+				Invoice		11/15/2018		2069				106 · Accounts Receivable				-SPLIT-		549.21
+				Payment		11/29/2018		29096		2069		110 · Deposit in Transit		Ö		106 · Accounts Receivable		549.21
+	N
+				Invoice		11/30/2018		2108				106 · Accounts Receivable				-SPLIT-		350.00
+				Payment		11/30/2018		ACH		1898		110 · Deposit in Transit		Ö		106 · Accounts Receivable		262.50
+	N
+				Payment		11/01/2018		ACH1745		1785, 1822		110 · Deposit in Transit		Ö		106 · Accounts Receivable		400.00
+				Invoice		11/15/2018		2018				106 · Accounts Receivable				-SPLIT-		200.00
+	N
+				Credit Memo		11/14/2018		2078				106 · Accounts Receivable				-SPLIT-		-143.67
+				Invoice		11/15/2018		2045				106 · Accounts Receivable				-SPLIT-		3,660.39
+				Payment		11/26/2018				2045		110 · Deposit in Transit		Ö		106 · Accounts Receivable		3,660.39
+	N
+				Invoice		11/15/2018		2068				106 · Accounts Receivable				-SPLIT-		3,040.67
+	O
+				Invoice		11/15/2018		2047				106 · Accounts Receivable				-SPLIT-		4,808.00
+				Payment		11/26/2018		per cc auth		2047		110 · Deposit in Transit		Ö		106 · Accounts Receivable		4,808.00
+	O
+				Invoice		11/15/2018		2048				106 · Accounts Receivable				-SPLIT-		7,125.76
+				Invoice		11/19/2018		2071				106 · Accounts Receivable				-SPLIT-		165.02
+				Payment		11/26/2018		100407		1855		110 · Deposit in Transit		Ö		106 · Accounts Receivable		7,189.95
+	O
+				Payment		11/05/2018				1856,1887,1799,1800		110 · Deposit in Transit		Ö		106 · Accounts Receivable		30,071.48
+				Payment		11/13/2018		134984		1915		110 · Deposit in Transit		Ö		106 · Accounts Receivable		437.50
+				Invoice		11/15/2018		2049				106 · Accounts Receivable				-SPLIT-		24,807.03
+				Invoice		11/19/2018		2076				106 · Accounts Receivable				-SPLIT-		1,687.48
+				Invoice		11/30/2018		2109				106 · Accounts Receivable				-SPLIT-		1,400.00
+				Invoice		11/30/2018		2172				106 · Accounts Receivable				-SPLIT-		175.00
+	O
+				Invoice		11/15/2018		2072				106 · Accounts Receivable				-SPLIT-		78.20
+	O
+				Invoice		11/15/2018		2051				106 · Accounts Receivable				-SPLIT-		249.35
+				Payment		11/18/2018				2051		110 · Deposit in Transit		Ö		106 · Accounts Receivable		229.35
+	O
+				Payment		11/05/2018		121943		1916		110 · Deposit in Transit		Ö		106 · Accounts Receivable		125.00
+				Invoice		11/15/2018		2052				106 · Accounts Receivable				-SPLIT-		538.00
+				Payment		11/23/2018		122030		1970, 2052		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,038.00
+				Invoice		11/30/2018		2163				106 · Accounts Receivable				-SPLIT-		125.00
+	P
+				Invoice		11/15/2018		2053				106 · Accounts Receivable				-SPLIT-		1,013.55
+				Invoice		11/30/2018		2164				106 · Accounts Receivable				-SPLIT-		62.50
+	P
+				Payment		11/13/2018		116988		1861		110 · Deposit in Transit		Ö		106 · Accounts Receivable		2,450.00
+				Invoice		11/15/2018		2054				106 · Accounts Receivable				-SPLIT-		2,450.00
+	P
+				Invoice		11/30/2018		2165				106 · Accounts Receivable				-SPLIT-		87.50
+	P
+				Invoice		11/15/2018		2055				106 · Accounts Receivable				-SPLIT-		341.52
+				Payment		11/30/2018		5901		1862		110 · Deposit in Transit		Ö		106 · Accounts Receivable		376.86
+	R
+				Invoice		11/15/2018		2056				106 · Accounts Receivable				-SPLIT-		582.44
+				Invoice		11/30/2018		2166				106 · Accounts Receivable				-SPLIT-		62.50
+	R
+				Invoice		11/19/2018		1989		VOID:		106 · Accounts Receivable		Ö		-SPLIT-		0.00
+				Payment		11/20/2018		1450		1946, 1971		110 · Deposit in Transit		Ö		106 · Accounts Receivable		960.00
+				Invoice		11/30/2018		2177				106 · Accounts Receivable				-SPLIT-		3,210.00
+	R
+				Invoice		11/30/2018		2168				106 · Accounts Receivable				-SPLIT-		87.50
+	R
+				Payment		11/27/2018				1497,1498,1516,1517,1595,1596		110 · Deposit in Transit		Ö		106 · Accounts Receivable		4,462.50
+				Invoice		11/30/2018		2135				106 · Accounts Receivable				-SPLIT-		3,798.27
+				Invoice		11/30/2018		2173				106 · Accounts Receivable				-SPLIT-		87.50
+	R
+				Invoice		11/30/2018		2171		VOID:		106 · Accounts Receivable		Ö		-SPLIT-		0.00
+	R
+				Payment		11/01/2018		11622		1865		110 · Deposit in Transit		Ö		106 · Accounts Receivable		512.55
+	S
+				Invoice		11/01/2018		1926				106 · Accounts Receivable				-SPLIT-		534.06
+				Payment		11/05/2018		4362		1926		110 · Deposit in Transit		Ö		106 · Accounts Receivable		534.06
+	S
+				Payment		11/07/2018		14126		1365,1589		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,475.00
+				Payment		11/08/2018		14134		1444, 1663		110 · Deposit in Transit		Ö		106 · Accounts Receivable		30,405.27
+				Invoice		11/15/2018		2070				106 · Accounts Receivable				-SPLIT-		14,715.32
+				Invoice		11/20/2018		2086				106 · Accounts Receivable				-SPLIT-		1,304.99
+				Payment		11/29/2018		14141		1866		110 · Deposit in Transit		Ö		106 · Accounts Receivable		14,994.66
+				Payment		11/29/2018		14147		1945, 1974		110 · Deposit in Transit		Ö		106 · Accounts Receivable		4,358.42
+				Invoice		11/30/2018		2106				106 · Accounts Receivable				-SPLIT-		962.50
+				Invoice		11/30/2018		2174				106 · Accounts Receivable				-SPLIT-		87.50
+				Invoice		11/30/2018		2175				106 · Accounts Receivable				-SPLIT-		87.50
+	S
+				Invoice		11/15/2018		2081				106 · Accounts Receivable				-SPLIT-		1,416.70
+				Invoice		11/30/2018		2156				106 · Accounts Receivable				-SPLIT-		125.00
+	S
+				Invoice		11/15/2018		2082				106 · Accounts Receivable				-SPLIT-		624.19
+				Payment		11/28/2018				2082		110 · Deposit in Transit		Ö		106 · Accounts Receivable		624.19
+	S
+				Invoice		11/15/2018		2080				106 · Accounts Receivable				-SPLIT-		150.00
+	S
+				Payment		11/09/2018		6439				110 · Deposit in Transit		Ö		106 · Accounts Receivable		272.08
+				Invoice		11/15/2018		2088				106 · Accounts Receivable				-SPLIT-		247.06
+	S
+				Invoice		11/01/2018		1957				106 · Accounts Receivable				-SPLIT-		916.67
+				Payment		11/05/2018		9336		1957		110 · Deposit in Transit		Ö		106 · Accounts Receivable		916.67
+	S
+				Invoice		11/01/2018		1959				106 · Accounts Receivable				-SPLIT-		70.00
+				Payment		11/30/2018		44282		1959		110 · Deposit in Transit		Ö		106 · Accounts Receivable		70.00
+	S
+				Payment		11/13/2018		6711		1872		110 · Deposit in Transit		Ö		106 · Accounts Receivable		260.00
+	S
+				Payment		11/14/2018		4268		1871		110 · Deposit in Transit		Ö		106 · Accounts Receivable		786.68
+				Invoice		11/15/2018		2058				106 · Accounts Receivable				-SPLIT-		786.68
+	S
+				Payment		11/13/2018		59868		1722, 1801		110 · Deposit in Transit		Ö		106 · Accounts Receivable		625.00
+	S
+				Invoice		11/15/2018		2059				106 · Accounts Receivable				-SPLIT-		8.34
+				Payment		11/15/2018				1505, 2059		110 · Deposit in Transit		Ö		106 · Accounts Receivable		164.08
+	S
+				Invoice		11/30/2018		2186				106 · Accounts Receivable				-SPLIT-		334.84
+	S
+				Invoice		11/30/2018		2158		VOID:		106 · Accounts Receivable		Ö		-SPLIT-		0.00
+	S
+				Invoice		11/15/2018		2090				106 · Accounts Receivable				-SPLIT-		460.00
+	S
+				Invoice		11/15/2018		2060				106 · Accounts Receivable				-SPLIT-		3,480.00
+	T
+				Invoice		11/15/2018		2061				106 · Accounts Receivable				-SPLIT-		1,080.00
+				Payment		11/23/2018		600305		2061		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,080.00
+	T
+				Invoice		11/15/2018		2062				106 · Accounts Receivable				-SPLIT-		257.49
+				Payment		11/21/2018		1129		2062		110 · Deposit in Transit		Ö		106 · Accounts Receivable		257.49
+	T
+				Invoice		11/09/2018		1987				106 · Accounts Receivable				-SPLIT-		15,387.33
+				Invoice		11/15/2018		2063				106 · Accounts Receivable				-SPLIT-		1,100.00
+				Payment		11/19/2018		110		1987		110 · Deposit in Transit		Ö		106 · Accounts Receivable		15,387.33
+				Payment		11/28/2018		2900		2063		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,100.00
+	T
+				Payment		11/23/2018		1125925		1275		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,126.41
+				Payment		11/29/2018		298200		1804		110 · Deposit in Transit		Ö		106 · Accounts Receivable		25,000.00
+				Credit Memo		11/30/2018		2137				106 · Accounts Receivable				-SPLIT-		-16,461.45
+				General Journal		11/30/2018		AJE 0330 63				106 · Accounts Receivable				146 · Furniture and Equipment		-2,553.26
+	T
+				Invoice		11/01/2018		1964				106 · Accounts Receivable				-SPLIT-		1,179.17
+				Payment		11/08/2018		69502		1964		110 · Deposit in Transit		Ö		106 · Accounts Receivable		1,179.17
+	U
+				Invoice		11/15/2018		2064				106 · Accounts Receivable				-SPLIT-		50.00
+				Payment		11/26/2018		per draft agreement				110 · Deposit in Transit				106 · Accounts Receivable		50.00
+				Invoice		11/30/2018		2157				106 · Accounts Receivable				-SPLIT-		125.00
+	V
+				Invoice		11/15/2018		2065				106 · Accounts Receivable				-SPLIT-		50.00
+				Payment		11/23/2018		4340		2065		110 · Deposit in Transit		Ö		106 · Accounts Receivable		50.00
+				Invoice		11/30/2018		2169				106 · Accounts Receivable				-SPLIT-		62.50
+	W
+				Payment		11/05/2018		17625		1678		110 · Deposit in Transit		Ö		106 · Accounts Receivable		31.33
+				Invoice		11/15/2018		2066				106 · Accounts Receivable				-SPLIT-		20.00
+				Payment		11/30/2018		17636		2066		110 · Deposit in Transit		Ö		106 · Accounts Receivable		20.00
+	W
+				Invoice		11/01/2018		1965				106 · Accounts Receivable				-SPLIT-		4,166.00
+				Payment		11/02/2018		87726		1755		110 · Deposit in Transit		Ö		106 · Accounts Receivable		4,166.00
+	Z
+				Invoice		11/15/2018		2067				106 · Accounts Receivable				-SPLIT-		8,800.00
