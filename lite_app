@@ -22,7 +22,7 @@ sub reconcile {
     $invoice ||= 0;
     $amount ||= 0;
     #warn "$batchid, $invoiceid, $invoice, $amount";
-    my $amount_qb = $qb->grep(qr/\tInvoice\t/)->map(sub{@_ = split /\t/, $_; $_[18] =~ s/,//g; $_[18] =~ s/\r?//; $_=[$_[8],$_[14]?0:$_[18]]})->grep(sub{$_->[0] eq $invoice})->first;
+    my $amount_qb = $qb->grep(qr/\tInvoice\t/)->map(sub{@_ = split /\t/, $_; $_[18] =~ s/,//g; $_[18] =~ s/"//g; $_[18] =~ s/\r?//; $_=[$_[8],$_[14]?0:$_[18]]})->grep(sub{$_->[0] eq $invoice})->first;
     $recon{$invoice} ||= [0,0];
     $recon{$invoice}->[0] += $amount;
     $recon{$invoice}->[1] += $amount_qb->[1]||0;
@@ -51,12 +51,17 @@ I have only one test case, so for this to work, the QB report form and the AT re
 % end
 
 @@ reconcile.html.ep
+% my $diff = 0;
 <table>
-<tr><td>Invoice Number</td><td>Autotask</td><td>Quickbooks</td><td>Difference</td></tr>
+<tr><th>Invoice Number</th><th>Autotask</th><th>Quickbooks</th><th>Difference</th></tr>
 % foreach my $invoice ( sort keys %$recon ) {
 %   my ($at, $qb) = @{$recon->{$invoice}};
 %   if ( $at ne $qb ) {
+%     $diff++;
       <tr><td><%= $invoice %></td><td><%= $at %></td><td><%= $qb %></td><td><%= $at - $qb %></td></tr>
 %   }
 % }
 </table>
+% unless ( $diff ) {
+There are no Invoice differences between Autotask and Quickbooks for the selected date range. Autotask and Quickbooks are 100% reconciled!
+% }
