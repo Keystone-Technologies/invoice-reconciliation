@@ -54,7 +54,7 @@ I have only one test case, so for this to work, the QB report form and the AT re
 % my $diff = 0;
 <table>
 <tr><th>Invoice Number</th><th>Autotask</th><th>Quickbooks</th><th>Difference</th></tr>
-% foreach my $invoice ( sort keys %$recon ) {
+% foreach my $invoice ( sort { $a <=> $b } keys %$recon ) {
 %   my ($at, $qb) = @{$recon->{$invoice}};
 %   if ( $at ne $qb ) {
 %     $diff++;
