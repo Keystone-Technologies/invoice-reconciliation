@@ -21,11 +21,24 @@ sub reconcile {
     my ($batchid, $invoiceid, $invoice, $amount) = (/^(\d+)\t(\d+)\t(\d+)\.00\t(\d+\.\d{2})\r?\n?$/);
     $invoice ||= 0;
     $amount ||= 0;
-    #warn "$batchid, $invoiceid, $invoice, $amount";
-    my $amount_qb = $qb->grep(qr/\tInvoice\t/)->map(sub{@_ = split /\t/, $_; $_[18] =~ s/,//g; $_[18] =~ s/"//g; $_[18] =~ s/\r?//; $_=[$_[8],$_[14]?0:$_[18]]})->grep(sub{$_->[0] eq $invoice})->first;
+    #warn sprintf "%s, %s, [[%s]] [%s]", $batchid, $invoiceid, $invoice, $amount;
+    my $amount_qb = $qb->grep(qr/\tInvoice\t/)
+                       ->map(sub{
+                           @_ = split /\t/, $_;
+                           $_[18] =~ s/,//g;
+                           $_[18] =~ s/"//g;
+                           $_[18] =~ s/\r?//;
+                           $_=[$_[8], $_[14]?0:$_[18]];
+                         })
+                       ->grep(sub{$_->[0] eq $invoice})
+                       #->sort(sub{$a->[0] <=> $b->[0]})
+                       #->each(sub{warn join "\t", @$_})
+                       ->first;
     $recon{$invoice} ||= [0,0];
+    #warn join "\t", 1, $invoice, @{$recon{$invoice}};
     $recon{$invoice}->[0] += $amount;
     $recon{$invoice}->[1] += $amount_qb->[1]||0;
+    #warn join "\t", 2, $invoice, @{$recon{$invoice}};
   });
   return \%recon;
 }
