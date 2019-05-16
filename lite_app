@@ -24,11 +24,12 @@ sub reconcile {
     #warn sprintf "%s, %s, [[%s]] [%s]", $batchid, $invoiceid, $invoice, $amount;
     my $amount_qb = $qb->grep(qr/\tInvoice\t/)
                        ->map(sub{
-                           @_ = split /\t/, $_;
-                           $_[18] =~ s/,//g;
-                           $_[18] =~ s/"//g;
-                           $_[18] =~ s/\r?//;
-                           $_=[$_[8], $_[14]?0:$_[18]];
+                           s/^\t+//;
+                           my ($qtype, $qdate, $qnum, $qmemo, $qaccount, $qclr, $qsplit, $qamount) = split /\t{2}/, $_;
+                           $qamount =~ s/,//g;
+                           $qamount =~ s/"//g;
+                           $qamount =~ s/\r?//;
+                           $_=[$qnum, $qclr?0:$qamount];
                          })
                        ->grep(sub{$_->[0] eq $invoice})
                        #->sort(sub{$a->[0] <=> $b->[0]})
